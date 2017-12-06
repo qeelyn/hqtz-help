@@ -1,0 +1,14 @@
+[[getting-started]]
+[role="pagenumrestart"]
+= 开始
+[partintro]
+--
+_禾其投资_信息聚合系统是在qeelyn平台基础上建立的应用系统,包含新闻,文档子应用系统.
+--
+
+include::01_ims.asciidoc[]
+
+include::02_dms.asciidoc[]
+
+
+
