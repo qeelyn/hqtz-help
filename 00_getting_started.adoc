@@ -10,4 +10,9 @@ include::01_ims.adoc[]
 
 include::02_dms.adoc[]
 
+include::01_ims/001_intro.adoc[]
 
+include::02_dms/020_intro.adoc[]
+
+
+include::02_dms/021_intro.adoc[]
