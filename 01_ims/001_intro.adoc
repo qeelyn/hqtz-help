@@ -1,4 +1,4 @@
-= 情报子系统功能使用说明
+== 情报子系统功能使用说明
 
 情报子系统是由自有爬虫技术跟踪和聚合各主要媒体和自媒体、研究报告提供方、上市公司信息披露网站等信息源的相关新闻情报。
 
@@ -6,7 +6,8 @@
 
 包涵的功能有新闻分析、去重聚合、内容聚合、新闻搜索、新闻列表、新闻预览、新闻详情、待阅文章、已阅历史、我的收藏、WatchList管理等功能。
 
-== 新闻搜索
+=== 新闻搜索
+
 
 根据关键词、公司、来源、类别、关键内容、时间进行搜索过滤,展示结果。
 
@@ -22,13 +23,13 @@ image::01_ims\images\search_single.png[]
 
 image::01_ims\images\search_much.png[]
 
-== 新闻列表
+=== 新闻列表
 
 展示新闻短内容,并可预览\收藏\待阅等操作。
 
 image::01_ims\images\news_list.png[]
 
-== 新闻聚合
+=== 新闻聚合
 
 去重聚合，将多个站点互相转载或高度雷同的文章聚合为一组；话题聚合，根据文章话题相似度将不同文章聚合在一起，目的是为减少用户的阅读工作量。
 
@@ -36,7 +37,7 @@ image::01_ims\images\news_list.png[]
 
 image::01_ims\images\icon_together.png[]
 
-== 新闻预览
+=== 新闻预览
 
 展示由新闻分析出的核心摘要及关键字标签，方便用户快速了解文章。
 
@@ -48,7 +49,7 @@ image::01_ims\images\icon_preview.png[]
 
 image::01_ims\images\window_preview.png[]
 
-== 新闻详情
+=== 新闻详情
 
 展示新闻的详细内容，该内容为源文章经过系统格式化，长久保存在本系统服务器中。在阅读文章详情工作过程中，提供关键字、摘要句子高亮功能。
 
@@ -60,7 +61,7 @@ image::01_ims\images\details_news.png[]
  
 image::01_ims\images\page_details.png[]
 
-== 阅读收藏管理
+=== 阅读收藏管理
 
 包涵待阅文章、已阅历史、我的收藏三种功能，方便用户阅读管理。点击页面顶部菜单栏中的“情报▼”，选择“待阅文章”、“已阅历史”“我的收藏”中任一种功能进入阅读收藏管理页面。
 
@@ -101,7 +102,7 @@ image::01_ims\images\icon_collect.png[]
 
 image::01_ims\images\cancel_collect.png[]
 
-== WatchList管理等功能
+=== WatchList管理等功能
 
 点击页面顶部菜单栏中的“情报▼”，选择“WstchList"进入WatchList管理页面。
 
