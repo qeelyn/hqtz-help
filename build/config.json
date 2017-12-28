@@ -1,0 +1,17 @@
+[
+  {
+    "title": "ims系统文档",
+    "children": [
+      {
+        "title": "说明",
+        "router": "explain",
+        "source": "../01_ims/ims_explain_intro.adoc"
+      },
+      {
+        "title": "功能",
+        "router": "function",
+        "source": "../01_ims/ims_function_intro.adoc"
+      }
+    ]
+  }
+]

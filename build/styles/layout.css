@@ -1,0 +1,10 @@
+.docHeader {
+    padding: 40px;
+}
+.layui-nav-child{
+    margin: 0;
+}
+.doc-context {
+    margin-left: 200px;
+    padding: 10px 40px;
+}
