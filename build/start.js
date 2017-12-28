@@ -96,14 +96,16 @@ function copyImages(path, targetPath) {
   let dirs = Fs.readdirSync(path), lenth = dirs.length;
   for (let i = 0; i < lenth; i++) {
     let item = dirs[i];
+    let oldPath = path + '/' + item;
     let newPath = targetPath + '/' + item;
-    if (item.indexOf('.') > -1) {
-      Fs.copyFileSync(path + '/' + item, newPath)
-    } else {
+    //判断文件夹或者是文件
+    if (Fs.lstatSync(oldPath).isDirectory()) {
       if (!Fs.existsSync(newPath)) {
         Fs.mkdirSync(newPath);
       }
-      copyImages(path + '/' + item, newPath);
+      copyImages(oldPath, newPath);
+    } else {
+      Fs.copyFileSync(oldPath, newPath);
     }
   }
 }
