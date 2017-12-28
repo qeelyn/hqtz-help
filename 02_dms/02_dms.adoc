@@ -1,2 +1,2 @@
-include::02_dms/002_intro.adoc[]
+include::02_dms/dms_explain_intro.adoc[]
 

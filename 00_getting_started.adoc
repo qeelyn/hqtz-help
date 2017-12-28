@@ -9,8 +9,9 @@ include::01_ims.adoc[]
 
 include::02_dms.adoc[]
 
-include::01_ims/001_intro.adoc[]
+include::03_user_center.adoc[]
 
-include::02_dms/020_intro.adoc[]
+include::01_ims/ims_function_intro.adoc[]
 
-include::02_dms/021_intro.adoc[]
+include::02_dms/dms_function_intro.adoc[]
+

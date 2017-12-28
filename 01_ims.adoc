@@ -1,2 +1,2 @@
-include::01_ims/00_intro.adoc[]
+include::01_ims/ims_explain_intro.adoc[]
 
