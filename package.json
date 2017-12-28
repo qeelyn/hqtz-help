@@ -1,0 +1,23 @@
+{
+  "name": "hqtz-help",
+  "version": "1.0.0",
+  "description": "hqtz help",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./build/start.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qeelyn/hqtz-help.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/qeelyn/hqtz-help/issues"
+  },
+  "homepage": "https://github.com/qeelyn/hqtz-help#readme",
+  "dependencies": {
+    "asciidoctor.js": "^1.5.6-preview.4",
+    "layui-src": "^2.2.45"
+  }
+}
