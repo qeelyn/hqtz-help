@@ -4,14 +4,44 @@
     "children": [
       {
         "title": "说明",
-        "router": "explain",
+        "router": "ims_explain",
         "source": "../01_ims/ims_explain_intro.adoc"
       },
       {
         "title": "功能",
-        "router": "function",
+        "router": "ims_function",
         "source": "../01_ims/ims_function_intro.adoc"
       }
     ]
+  },
+  {
+    "title": "dms系统文档",
+    "children": [
+      {
+        "title": "说明",
+        "router": "dms_explain",
+        "source": "../02_dms/dms_explain_intro.adoc"
+      },
+      {
+        "title": "功能",
+        "router": "dms_function",
+        "source": "../02_dms/dms_function_intro.adoc"
+      }
+    ]
+  },
+  {
+    "title": "用户中心系统文档",
+    "children": [
+      {
+        "title": "说明",
+        "router": "03_explain",
+        "source": "../03_user_center/03_explain_intro.adoc"
+      },
+      {
+        "title": "功能",
+        "router": "03_function",
+        "source": "../03_user_center/03_function_intro.adoc"
+      }
+    ]
   }
-]
+ ]
