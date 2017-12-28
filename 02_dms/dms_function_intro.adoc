@@ -2,7 +2,7 @@
 
 文档管理系统主要是用来管理我们常用的一些文档、图纸、视频和音频等信息内容。管理页分有：文件夹目录列表的展示、目录内容页。其中涉及的主要功能有新建、重命名、上传、打开、下载、分享、共享、搜索、添加书签、复制、剪切、粘贴、删除、排列方式、分栏模式、用户权限设置等功能。
 
-image::02_dms\images\dms_page.png[]
+image::..\images\02_dms\dms_page.png[]
 
 === 新建
 
@@ -13,25 +13,25 @@ image::02_dms\images\dms_page.png[]
 
 1.点击目录内容页里的“新建文件夹”按钮，即可新建一个文件夹。当前页选中在哪个文档下，则新建的文件属于该文档。如下图，当前页在“我的文档”首页，则新建的文件夹在“我的文档”目录列表里。
 
-image::02_dms\images\new_folder.png[]
+image::..\images\02_dms\new_folder.png[]
 
 2.在文件夹目录列表中，选中“我的文档”或选中“我的文档”下的任一文件夹，点击选中条右边的“▼”图标，在弹出框里选择“新建文件夹”即可完成新建。
 
-image::02_dms\images\new_folder1.png[]
+image::..\images\02_dms\new_folder1.png[]
 
 3.在目录内容页空白处右击，在弹出框选择“新建文件夹”可完成新建。
 
-image::02_dms\images\nwe_folder2.png[]
+image::..\images\02_dms\nwe_folder2.png[]
 
 ==== 新建文件
 
 1.在目录内容页，点击“新建文件夹”旁的“▼”图标，在弹出框选择中意的文件格式即可新建文件。
 
-image::02_dms\images\new_file.png[]
+image::..\images\02_dms\new_file.png[]
 
 2.在目录内容页空白处右击，在弹出框选择“新建文件”可完成新建。
 
-image::02_dms\images\new_file1.png[]
+image::..\images\02_dms\new_file1.png[]
 
 === 重命名
 
@@ -39,12 +39,12 @@ image::02_dms\images\new_file1.png[]
 
 1.可以选择双击文件夹的名称重命名或选中文件夹后点击右上角的“▼”图标，在弹出框选择“重命名”。
 
-image::02_dms\images\rename.png[] 
-image::02_dms\images\rename1.png[]
+image::..\images\02_dms\rename.png[] 
+image::..\images\02_dms\rename1.png[]
 
 2.在选中文件夹或文档后，点击“更多▼”，在弹出框选择“重命名”也可完成重命名。
 
-image::02_dms\images\rename2.png[]
+image::..\images\02_dms\rename2.png[]
 
 === 上传
 
@@ -52,17 +52,17 @@ image::02_dms\images\rename2.png[]
 
 在目录内容页面，点击“上传”图标，在弹出的“文件上传”框中点击“选择文件”进行上传。支持任意格式的文件上传。
 
-image::02_dms\images\upload.png[]
+image::..\images\02_dms\upload.png[]
 
 === 打开
 
 1.文件打开，双击文件打开或选中文件点击右上角的“▼”图标，在弹出框选择“打开”即可。
 
-image::02_dms\images\open.png[]
+image::..\images\02_dms\open.png[]
 
 2.也可以选中文件后，点击“更多▼”按钮，在弹出框选择“打开”。
 
-image::02_dms\images\open1.png[]
+image::..\images\02_dms\open1.png[]
 
 === 下载
 
@@ -70,30 +70,30 @@ image::02_dms\images\open1.png[]
 
 1.选中某个文件，点击“▼”图标，在弹出框的列表中选择“下载”。
 
-image::02_dms\images\download.png[]
+image::..\images\02_dms\download.png[]
 
 2.或者选中某个文件，点击“更多▼”，选择弹出框中的“下载”。
 
-image::02_dms\images\download1.png[]
+image::..\images\02_dms\download1.png[]
 
 === 分享
 
 1.分享文件或图片，选中某个文件，点击“▼”图标，在弹出框的列表中选择“分享”。或者选中某个文件，点击“更多▼”，选择弹出框中的“分享”。
 
-image::02_dms\images\share.png[]
-image::02_dms\images\share1.png[]
+image::..\images\02_dms\share.png[]
+image::..\images\02_dms\share1.png[]
 
 2.点击“分享”后，弹出“资源分享”编辑框，用户可以选择是否设置“提取密码”。点击“确认”后分享成功。已分享的文件可以在我的分享中查看。
 
-image::02_dms\images\share_edit.png[]
+image::..\images\02_dms\share_edit.png[]
 
 === 共享
 
 点击“我的分享”进入我的分享页面，选中文件，点击“▼”图标，在弹出框中选择“打开共享页面”后进入文件提取页面。如果之前分享时有设置提取密码，则先输入提取密码。“确认”后，就可以提取下载文件啦。
 
-image::02_dms\images\sharing.png[]
-image::02_dms\images\sharing1.png[]
-image::02_dms\images\sharing2.png[]
+image::..\images\02_dms\sharing.png[]
+image::..\images\02_dms\sharing1.png[]
+image::..\images\02_dms\sharing2.png[]
 
 === 搜索
 
@@ -101,50 +101,50 @@ image::02_dms\images\sharing2.png[]
 
 1.点击目录内容页右上角搜索按钮，在弹出的搜索框中输入文件内容或文件名进行搜索。
 
-image::02_dms\images\select.png[]
-image::02_dms\images\select1.png[]
+image::..\images\02_dms\select.png[]
+image::..\images\02_dms\select1.png[]
 
 2.也可以在文件夹目录列表中，选中“我的文档”或“我的文档”底下的文件夹，点击选中条右边的“▼”图标，在弹出的列表中选择“文件夹中搜索”，即可进行搜索操作。
 
-image::02_dms\images\select2.png[]
+image::..\images\02_dms\select2.png[]
 
 === 添加书签
 
 将文件夹或文件添加到书签，选中某个文件或文件夹，点击“▼”图标，在弹出框中选择“添加到书签”即可。添加成功的文件可以在“我的收藏”中查看。
 
-image::02_dms\images\bookmark.png[]
-image::02_dms\images\collect.png[]
+image::..\images\02_dms\bookmark.png[]
+image::..\images\02_dms\collect.png[]
 
 === 复制、剪切
 
 文件或文件夹进行复制或剪切操作时，选中文件，点击“▼”图标，在弹出框的列表中点击“复制”或“剪切”，即可完成复制或剪切操作。
 
-image::02_dms\images\copy.png[]
+image::..\images\02_dms\copy.png[]
 
 === 粘贴
 
 完成复制或剪切后，在另外的页面空白处右击，在弹出框的列表中选择“粘贴”，即可。
 
-image::02_dms\images\paste.png[]
+image::..\images\02_dms\paste.png[]
 
 === 删除
 
 删除文件夹或文件，选中某个文件，点击“▼”图标，在弹出的列表中选择“×删除”，即可删除文件。删除的文件可以在“回收站”中查看。
 
-image::02_dms\images\delete.png[]
-image::02_dms\images\recycle_bin.png[]
+image::..\images\02_dms\delete.png[]
+image::..\images\02_dms\recycle_bin.png[]
 
 === 排列方式
 
 点击目录内容页面右上角的排列功能图标。选择功能，页面文件夹和文件立即更换排列方式，如不满意，可重复以上操作更换。
 
-image::02_dms\images\rank.png[]
+image::..\images\02_dms\rank.png[]
 
 === 分栏模式
 
 点击目录内容页面右上角的分栏模式功能图标。选中后，页面文件夹和文件立即更换为分栏模式，如不满意，可更换成排列方式。
 
-image::02_dms\images\subfield.png[]
+image::..\images\02_dms\subfield.png[]
 
 === 文档设置
 
