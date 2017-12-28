@@ -89,13 +89,24 @@ function createMenuTree() {
 
 /**
  * 图片拷贝
+ * @param path           图片来源路径
+ * @param targetPath     图片存放路径
  */
-function copyImages() {
-  Fs.copyFile('images', rootPath + '/images', (err) => {
-    if (err) throw err;
-    console.log('拷贝图片成功！');
-  });
+function copyImages(path, targetPath) {
+  let dirs = Fs.readdirSync(path), lenth = dirs.length;
+  for (let i = 0; i < lenth; i++) {
+    let item = dirs[i];
+    let newPath = targetPath + '/' + item;
+    if (item.indexOf('.') > -1) {
+      Fs.copyFileSync(path + '/' + item, newPath)
+    } else {
+      if (!Fs.existsSync(newPath)) {
+        Fs.mkdirSync(newPath);
+      }
+      copyImages(path + '/' + item, newPath);
+    }
+  }
 }
 
-// copyImages();
-createDir(Menu);
+copyImages(rootPath + '/../images', rootPath + '/images');
+// createDir(Menu);
