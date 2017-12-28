@@ -14,14 +14,14 @@ let Menu = require('./config.json'),
  * 创建文件
  * @param data
  */
-function createDir(data) {
+function buildHtmlFile(data) {
   for (let i in data) {
     let item = data[i];
     if (!item) {
       return;
     }
     if (item.children && item.children.length > 0) {
-      createDir(item.children);
+      buildHtmlFile(item.children);
     } else {
       if (item.source) {
         let html = Asciidoctor.convert(Fs.readFileSync(rootPath + '/' + item.source, 'utf-8'));
@@ -109,4 +109,4 @@ function copyImages(path, targetPath) {
 }
 
 copyImages(rootPath + '/../images', rootPath + '/images');
-// createDir(Menu);
+buildHtmlFile(Menu);
