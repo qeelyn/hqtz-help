@@ -117,7 +117,7 @@ image::..\images\01_ims\icon_collect.png[]
 
 image::..\images\01_ims\cancel_collect.png[]
 
-=== WatchList管理等功能
+=== WatchList管理功能
 
 在页面顶部菜单栏中的“情报▼”处，将鼠标停留一下，在弹出框中选择选择“WstchList"进入WatchList管理页面。
 
