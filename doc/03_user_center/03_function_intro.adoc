@@ -379,53 +379,6 @@ image::..\..\images\03_user_center\Role_editing.png[]
 image::..\..\images\03_user_center\Role_editing1.png[]
 
 
-==  怎么样绑定手机号和邮箱？
-
-绑定手机号或邮箱是保障您账户安全的必要条件之一。如果用户忘记密码，就可以通过手机或邮箱认证重置密码。绑定成功后，账号也可以用手机或邮箱登陆。
-
-点击头像旁的“▼”图标，选中“用户安全”
-
-image::..\..\images\03_user_center\user_safe.png[]
-
-进入用户中心-账号安全，选择要绑定的方式，点击“绑定”进入绑定页面。（这里以手机绑定为例）：
-
-image::..\..\images\03_user_center\cellphone_binding.png[]
-
-在绑定手机页面，输入手机号，输入、获取验证码
-
-image::..\..\images\03_user_center\cellphone_binding1.png[]
-
-绑定成功
-
-image::..\..\images\03_user_center\success_binding.png[]
-
-
-
-== 如何重置密码？忘记密码怎么办？
-
-不管是管理员帐号或是成员帐号，如果您的帐号绑定了手机或是邮箱，你都可以通过以下步骤重置密码：
-官网登录页》忘记密码》输入账号信息和验证码》接收验证码》重置密码。
-
-1）打开登录页面，点击“忘记密码”
-
-image::..\..\images\03_user_center\password.png[]
-
-2）确认信息页面，输入已绑定的手机号或邮箱（这里以绑定的手机号为例）：
-
-image::..\..\images\03_user_center\password1.png[]
-
-3）在身份验证页面，输入、获取验证码
-
-image::..\..\images\03_user_center\identifying_code.png[]
-
-4）验证成功后，进入重置密码，输入新密码
-
-image::..\..\images\03_user_center\new_password.png[]
-
-5）重置密码完成
-
-image::..\..\images\03_user_center\password2.png[]
-
 
 
 
