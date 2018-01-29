@@ -1,3 +1,4 @@
+[hide:1]
 include::03_user_center.adoc[]
 
 include::02_dms/03_function_intro.adoc[]
