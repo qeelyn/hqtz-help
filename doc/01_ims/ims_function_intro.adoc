@@ -1,3 +1,4 @@
+[title:功能,parent:ims系统]
 == 情报子系统功能使用说明
 
 情报子系统是由自有爬虫技术跟踪和聚合各主要媒体和自媒体、研究报告提供方、上市公司信息披露网站等信息源的相关新闻情报。
@@ -16,23 +17,23 @@
 
 1.在搜索框输入你想要搜索的信息的关键字。
 
-image::..\images\01_ims\Search_Bar.png[]
+image::..\..\images\01_ims\Search_Bar.png[]
 
 
 2.选择列表里的公司、来源、内容、时间搜索。
 
 
-image::..\images\01_ims\search_single.png[]
+image::..\..\images\01_ims\search_single.png[]
  
 支持多选搜索，点击右边的“多选+”，选中后确认。
 
-image::..\images\01_ims\search_much.png[]
+image::..\..\images\01_ims\search_much.png[]
 
 === 新闻列表
 
 展示新闻短内容,并可预览、收藏、待阅等操作。
 
-image::..\images\01_ims\news_list.png[]
+image::..\..\images\01_ims\news_list.png[]
 
 === 新闻聚合
 
@@ -40,17 +41,17 @@ image::..\images\01_ims\news_list.png[]
 
 去重聚合指在将内容相同或者雷同的文章聚合在一起，避免重复阅读。例如，同一篇文章，多个媒体之间会相互转载或者只做小幅调整刊发出来，这些文章会通过去重聚合在一起。如下图：
 
-image::..\images\01_ims\icon_together1.png[]
+image::..\..\images\01_ims\icon_together1.png[]
 
 2）话题聚合
 
 话题聚合则是将内容上相关的资讯聚合为一组，文章之间内容不雷同，但是话题相同。例如有关“中科招商”的几篇文章讲得是同一个话题，被聚合在一起，方便了解某个话题更全面的信息。如下图：
 
-image::..\images\01_ims\icon_together2.png[]
+image::..\..\images\01_ims\icon_together2.png[]
 
 操作方法：点击新闻列表右上角聚合“▼”图形，弹出可选择的选择聚合的条件，选择条件，列表立即更换新闻显示，如不满意，可重复以上操作更换。
 
-image::..\images\01_ims\icon_together.png[]
+image::..\..\images\01_ims\icon_together.png[]
 
 === 新闻预览
 
@@ -58,11 +59,11 @@ image::..\images\01_ims\icon_together.png[]
 
 点击新闻列表中右边第一个图形按钮，后跳出预览窗口。
 
-image::..\images\01_ims\icon_preview.png[]
+image::..\..\images\01_ims\icon_preview.png[]
 
  预览窗口：
 
-image::..\images\01_ims\window_preview.png[]
+image::..\..\images\01_ims\window_preview.png[]
 
 === 新闻详情
 
@@ -70,66 +71,66 @@ image::..\images\01_ims\window_preview.png[]
 
 操作方法：在新闻列表中，点击新闻的标题或内容，即可进入详情页面。
 
-image::..\images\01_ims\details_news.png[]
+image::..\..\images\01_ims\details_news.png[]
 
  详情页面： 
  
-image::..\images\01_ims\page_details.png[]
+image::..\..\images\01_ims\page_details.png[]
 
 === 阅读收藏管理
 
 包涵待阅文章、已阅历史、我的收藏三种功能，方便用户阅读管理。在页面顶部菜单栏中的“情报▼”处，将鼠标停留一下，在弹出框中选择“待阅文章”、“已阅历史”“我的收藏”中任一种功能进入阅读收藏管理页面。
 
-image::..\images\01_ims\reading_management.png[]
+image::..\..\images\01_ims\reading_management.png[]
 
  阅读收藏管理页：在管理页可以看到设置文章的状态
  
-image::..\images\01_ims\manage_page.png[]
+image::..\..\images\01_ims\manage_page.png[]
 
 * 待阅文章
 
 用户可以将文章添加至待阅，方便用户后期阅读。
 点击新闻列表中右边第二个图形按钮即可，图形变色表示设置成功。
 
-image::..\images\01_ims\to_read.png[]
+image::..\..\images\01_ims\to_read.png[]
 
  取消待阅：
  
 点击已设置的待阅图形，选择弹出框上的“确定”即可取消。
 
-image::..\images\01_ims\cancel_read.png[]
+image::..\..\images\01_ims\cancel_read.png[]
 
 * 已阅历史
 
 系统自动跟踪用户阅读的文章，方便用户查看已阅历史。查看操作：进入阅读收藏管理页，选中“已阅历史”。
 
-image::..\images\01_ims\read_news.png[]
+image::..\..\images\01_ims\read_news.png[]
 
 * 我的收藏
 
 管理用户收藏的文章。用户可以将文章设置为收藏，方便后期阅读。点击新闻列表中右边第三个图形“☆”即可，图形变色表示收藏成功。（收藏的文章在阅读收藏管理页查看）
 
-image::..\images\01_ims\icon_collect.png[]
+image::..\..\images\01_ims\icon_collect.png[]
 
   取消收藏：
   
 点击已设置的收藏的“★”图形，点击弹出框上的“确认”即可取消。
 
-image::..\images\01_ims\cancel_collect.png[]
+image::..\..\images\01_ims\cancel_collect.png[]
 
 === WatchList管理等功能
 
 在页面顶部菜单栏中的“情报▼”处，将鼠标停留一下，在弹出框中选择选择“WstchList"进入WatchList管理页面。
 
-image::..\images\01_ims\reading_management.png[]
+image::..\..\images\01_ims\reading_management.png[]
 
    WatchList管理页面:
 
-image::..\images\01_ims\W_20171207171301.png[]
+image::..\..\images\01_ims\W_20171207171301.png[]
 
 在WatchList管理页面分有左边树形列表：“可监控对象”、“禾其WatchList”、“我的WatchList”三个模块，右边是内容显示页。其中“禾其WatchList”中“默认观察列表”显示的公司、产品、人物、财务指标、运营指标的内容对应的是情报页搜索框下的可供搜索过滤的条件内容。
 
-image::..\images\01_ims\W1_20171207180721.png[]
+image::..\..\images\01_ims\W1_20171207180721.png[]
 
 "可监控对象-企业相关”中公司/产品等内容没有显示在情报页，用户可将自己关心的公司加入到“我的watchlist”,这样通过系统导航能快速在情报页查看有关新闻资讯。具体操作步骤：
 
@@ -141,7 +142,7 @@ image::..\images\01_ims\W1_20171207180721.png[]
 
 点击“我的Watchlist”旁边的“+”
 
-image::..\images\01_ims\W2_20171207183111.png[]
+image::..\..\images\01_ims\W2_20171207183111.png[]
 
 在弹出框里输入新增的名称，确认即可新增成功。
 
@@ -149,26 +150,26 @@ image::images\01_ims\w6.png[]
 
 2.点击“可监控对象”下的“企业相关”，在右边内容显示页选中“公司”（这里以新加公司为例）：
 
-image::..\images\01_ims\W3_20171207183611.png[]
+image::..\..\images\01_ims\W3_20171207183611.png[]
 
 在公司列表中，选中中意的公司，将鼠标停留在右边蓝色的操作键“添加到”，弹出的内容是“我的WatchList”里新增的内容，点击弹出框里的“公司”即操作成功。如果已添加则提示“重复添加”。
 
-image::..\images\01_ims\W4_20171207185438.png[]
-image::..\images\01_ims\w5_20171207185651.png[]
+image::..\..\images\01_ims\W4_20171207185438.png[]
+image::..\..\images\01_ims\w5_20171207185651.png[]
 
   批量添加：
   
 点击搜索框下的文字“批量操作”
 
-image::..\images\01_ims\batch_handle.png[]
+image::..\..\images\01_ims\batch_handle.png[]
 
 勾选多家公司后，将鼠标停留在“批量添加+”，点击弹出框里的“公司”即批量添加成功。
 
-image::..\images\01_ims\batch_add.png[]
+image::..\..\images\01_ims\batch_add.png[]
 
 3.添加公司到“我的Watchlist—公司”后，缓存5分钟时间，在情报页公司列表中就可以找到已添加的公司。
 
-image::..\images\01_ims\add_company.png[]
+image::..\..\images\01_ims\add_company.png[]
  
 
 

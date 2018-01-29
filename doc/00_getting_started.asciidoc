@@ -1,3 +1,4 @@
+[hide:1]
 [[getting-started]]
 [role="pagenumrestart"]
 = 开始

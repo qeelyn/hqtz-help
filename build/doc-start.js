@@ -56,10 +56,12 @@ function parsing(url, curTree) {
       let file = Fs.readFileSync(curUrl, 'utf-8');
       if (useDirName) {
         json = getFileJson(url, item, file);
-        if (curTree instanceof Array) {
-          curTree.push(json);
-        } else {
-          curTree.children.push(json);
+        if (json) {
+          if (curTree instanceof Array) {
+            curTree.push(json);
+          } else {
+            curTree.children.push(json);
+          }
         }
       } else {
         getFileJson(url, item, file, curTree)
@@ -96,6 +98,10 @@ function getFileJson(url, fileName, file, curTree) {
       let v = item.split(':')
       json[v[0]] = v[1];
     }
+  }
+
+  if (json.hide || (json.hide == 1)) {
+    return null;
   }
 
   for (let i in strSplit) {

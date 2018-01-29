@@ -1,2 +1,3 @@
+[hide:1]
 include::02_dms/dms_explain_intro.adoc[]
 

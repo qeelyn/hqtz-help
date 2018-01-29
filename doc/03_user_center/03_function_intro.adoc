@@ -1,4 +1,4 @@
-
+[title:功能,parent:ucenter系统文档]
 
 == 人员管理
 
@@ -19,62 +19,62 @@
 登陆管理员账号后，鼠标在头像旁的“▼”图标停留一下，在弹出的子菜单中点击“用户信息”或“用户安全”进入用户中心。
 
 
-image::..\images\03_user_center\user.png[]
+image::..\..\images\03_user_center\user.png[]
 
 在用户中心页面，选择“组织协作”，点击“成员管理”，在“成员管理”页面，点击“添加”，开始添加新成员。
 
-image::..\images\03_user_center\leaguer_add.png[]
+image::..\..\images\03_user_center\leaguer_add.png[]
 
 填写登陆设置；“登陆方式”可以选择用户名或邮箱，输入账号、密码、昵称，完成后保存。保存即添加账号成功。
 
-image::..\images\03_user_center\leaguer_add1.png[]
+image::..\..\images\03_user_center\leaguer_add1.png[]
 
 2）指定所属的企业部门
 
 新增成员成功后，在“成员管理”页面找到该用户，点击“加入部门”
 
-image::..\images\03_user_center\dept_add.png[]
+image::..\..\images\03_user_center\dept_add.png[]
 
 点击“添加部门”在弹出框中选择需要的部门。
 
-image::..\images\03_user_center\dept_choose.png[]
+image::..\..\images\03_user_center\dept_choose.png[]
 
-image::..\images\03_user_center\choice_dept.png[]
+image::..\..\images\03_user_center\choice_dept.png[]
 
 部门确认后，在成员列表就可以看到其所属部门。
 
-image::..\images\03_user_center\choice_dept1.png[]
+image::..\..\images\03_user_center\choice_dept1.png[]
 
   指定部门后，如果需要更换部门，具体操作是：“在“成员管理”页面，》加入部门》移除”。
 
-image::..\images\03_user_center\dept_add.png[]
+image::..\..\images\03_user_center\dept_add.png[]
 
-image::..\images\03_user_center\delete1.png[]
+image::..\..\images\03_user_center\delete1.png[]
 
 3）添加用户的角色权限
 
 点击“角色管理”进入角色管理页面，选择“文档使用普通用户”角色，点击右边的“用户”（这里以文档使用普通用户角色为例）。
 
-image::..\images\03_user_center\role_add.png[]
+image::..\..\images\03_user_center\role_add.png[]
 
 进入“文档使用普通用户”角色页，选择“添加成员”
 
 
-image::..\images\03_user_center\role_add2.png[]
+image::..\..\images\03_user_center\role_add2.png[]
 
 在弹出框选择用户并确认。
 
 
-image::..\images\03_user_center\role_add3.png[]
+image::..\..\images\03_user_center\role_add3.png[]
 
 角色成员添加成功，如下图显示，新添加的成员在“文档使用普通用户”的成员列表里。如果取消点击列表右边的“移除”操作。
 
 
-image::..\images\03_user_center\role_add4.png[]
+image::..\..\images\03_user_center\role_add4.png[]
 
 用户添加各种角色后，登陆
 
-image::..\images\03_user_center\land.png[]
+image::..\..\images\03_user_center\land.png[]
 
 4）“文档”系统“组织目录”权限设置：
 
@@ -82,34 +82,34 @@ image::..\images\03_user_center\land.png[]
 
   未设置前：
 
-image::..\images\03_user_center\doc7.png[]
+image::..\..\images\03_user_center\doc7.png[]
 
   设置后：
 
-image::..\images\03_user_center\doc8.png[]
+image::..\..\images\03_user_center\doc8.png[]
 
 
 具体操作方法：
 
 管理员登陆账号后，在顶部菜单栏中将鼠标在“文档▼”处停留一下，在弹出框中点击“文档设置”。
 
-image::..\images\03_user_center\doc1.png[]
+image::..\..\images\03_user_center\doc1.png[]
 
 进入“文档设置”页面：
 
-image::..\images\03_user_center\doc2.png[]
+image::..\..\images\03_user_center\doc2.png[]
 
 选中目录中“客服部”，点击“▼”图标，在弹出的列表中选择“添加用户”。（这里以客服部为例）
 
-image::..\images\03_user_center\doc3.png[]
+image::..\..\images\03_user_center\doc3.png[]
 
 弹出的“添加用户”框中，列表里的用户在“组织目录”是未设置权限的。选择要设置的用户并给与相应的权限，点击“确认”即可。
 
-image::..\images\03_user_center\doc5.png[]
+image::..\..\images\03_user_center\doc5.png[]
 
 添加成功
 
-image::..\images\03_user_center\doc6.png[]
+image::..\..\images\03_user_center\doc6.png[]
 
   取消权限使用列表上方的“移除”功能，或者设置为“无权限”。
 
@@ -123,39 +123,39 @@ image::..\images\03_user_center\doc6.png[]
 
 点击组织协作下的“部门管理”进入部门管理页
 
-image::..\images\03_user_center\department.png[]
+image::..\..\images\03_user_center\department.png[]
 
 1）建立同级部门
 
 选中已有的某一个部门，在“添加”处将鼠标停留一下，在弹出框中点击“同级节点”
 
-image::..\images\03_user_center\department5.png[]
+image::..\..\images\03_user_center\department5.png[]
 
 选择后，在输入框中输入新建的部门名称和编码
 
-image::..\images\03_user_center\department6.png[]
+image::..\..\images\03_user_center\department6.png[]
 
 保存即可添加成功
 
-image::..\images\03_user_center\department7.png[]
+image::..\..\images\03_user_center\department7.png[]
 
 2）建立子部门
 
 选中已有的某一个部门，在“添加”处将鼠标停留一下，在弹出框中点击“子节点”
 
-image::..\images\03_user_center\department8.png[]
+image::..\..\images\03_user_center\department8.png[]
 
 输入子部门，保存即可
 
-image::..\images\03_user_center\department10.png[]
+image::..\..\images\03_user_center\department10.png[]
 
-image::..\images\03_user_center\department11.png[]
+image::..\..\images\03_user_center\department11.png[]
 
 === 部门排序
 
 同级部门可以上移、下移，上下级部门之间左移、右移。选中部门，在“移动”处将鼠标停留一下，在弹出框里选择类型。
 
-image::..\images\03_user_center\department_movement.png[]
+image::..\..\images\03_user_center\department_movement.png[]
 
 === 删除部门
 
@@ -167,48 +167,48 @@ image::..\images\03_user_center\department_movement.png[]
 
 点击“角色管理”进入角色管理页面
 
-image::..\images\03_user_center\role_manager.png[]
+image::..\..\images\03_user_center\role_manager.png[]
 
 === 查看权限
 
 点击角色列表右边的“查看权限”即可查看该角色所属权限
 
-image::..\images\03_user_center\role_manager1.png[]
-image::..\images\03_user_center\role_manager2.png[]
+image::..\..\images\03_user_center\role_manager1.png[]
+image::..\..\images\03_user_center\role_manager2.png[]
 
 === 角色用户查看
 
 查看该角色所属的用户，点击角色列表右边的“用户”即可
 
-image::..\images\03_user_center\role_manager3.png[]
+image::..\..\images\03_user_center\role_manager3.png[]
 
-image::..\images\03_user_center\role_manager4.png[]
+image::..\..\images\03_user_center\role_manager4.png[]
 
 === 新增角色
 
 创建应用里的角色，点击角色列表左上方“添加”，开始新增角色
 
-image::..\images\03_user_center\role_add5.png[]
+image::..\..\images\03_user_center\role_add5.png[]
 
 1）确认应用，选择该角色所在的应用
 
 
-image::..\images\03_user_center\role_manager7.png[]
+image::..\..\images\03_user_center\role_manager7.png[]
 
 2）填写角色资料
 
 
-image::..\images\03_user_center\role_manager8.png[]
+image::..\..\images\03_user_center\role_manager8.png[]
 
 3）分配权限
 
 
-image::..\images\03_user_center\role_manager9.png[]
+image::..\..\images\03_user_center\role_manager9.png[]
 
 4）新增完成
 
 
-image::..\images\03_user_center\role_manager10.png[]
+image::..\..\images\03_user_center\role_manager10.png[]
 
 
 
@@ -226,12 +226,12 @@ image::..\images\03_user_center\role_manager10.png[]
 
 3.点击应用列表右上角的“添加”
 
-image::..\images\03_user_center\apply_add.png[]
+image::..\..\images\03_user_center\apply_add.png[]
 
 
 进入应用编辑页面，填写名称、编码、类型、url、状态设置后保存即可。
 
-image::..\images\03_user_center\apply_edit.png[]
+image::..\..\images\03_user_center\apply_edit.png[]
 
 === 应用权限管理
 
@@ -245,12 +245,12 @@ image::..\images\03_user_center\apply_edit.png[]
 
 3.选择某个应用，点击右边“权限”
 
-image::..\images\03_user_center\power.png[]
+image::..\..\images\03_user_center\power.png[]
 
 
 4.进入权限管理页，可根据实际需要添加或删除权限
 
-image::..\images\03_user_center\power_manager.png[]
+image::..\..\images\03_user_center\power_manager.png[]
 
 5.权限组管理
 
@@ -260,27 +260,27 @@ image::..\images\03_user_center\power_manager.png[]
 
 * 权限组视图负责权限组设置、添加、修改、删除操作
 
-image::..\images\03_user_center\Rights_group.png[]
+image::..\..\images\03_user_center\Rights_group.png[]
 
 * 权限组添加
 
 在权限组视图页，选中已有的权限组，在“添加”处将鼠标停留一下，在弹出框中点击“同级节点”
 
-image::..\images\03_user_center\Rights_group1.png[]
+image::..\..\images\03_user_center\Rights_group1.png[]
 
 填写名称、描述，1）类型选择“目录”则该权限组没有任何权限
 
-image::..\images\03_user_center\Rights_group2.png[]
+image::..\..\images\03_user_center\Rights_group2.png[]
 
 2）类型选择“权限项”，在关联权限处，点击“增加”
 
-image::..\images\03_user_center\Rights_group3.png[]
+image::..\..\images\03_user_center\Rights_group3.png[]
 
 在弹出框选择需要的权限，确认即可
 
-image::..\images\03_user_center\Rights_group4.png[]
+image::..\..\images\03_user_center\Rights_group4.png[]
 
-image::..\images\03_user_center\Rights_group5.png[]
+image::..\..\images\03_user_center\Rights_group5.png[]
 
 
 * 自定添加组是可以进行修改和删除，系统默认组不允许删除、修改操作。如
@@ -292,7 +292,7 @@ image::..\images\03_user_center\Rights_group5.png[]
 
 禾其投资应用系统的菜单栏分部在页面顶部，用户中心系统的菜单栏分布在页面左侧。在系统顶部菜单栏中，情报和文档后边有“▼”图标，表示该命令项后还有下一级子菜单，将鼠标停留一下，就会自动弹出子菜单（如下图）。
 
-image::..\images\03_user_center\menu.png[]
+image::..\..\images\03_user_center\menu.png[]
 
 1.管理员admin账号登陆
 
@@ -300,23 +300,23 @@ image::..\images\03_user_center\menu.png[]
 
 3.点击列表右边的“菜单”进入菜单管理页（这里以用户中心应用为例）
 
-image::..\images\03_user_center\Utility_Menu.png[]
+image::..\..\images\03_user_center\Utility_Menu.png[]
 
 4.在菜单管理页可以看到该应用当前所有的菜单项，管理员可以添加、删除或移动菜单项。
 
-image::..\images\03_user_center\Utility_Menu1.png[]
+image::..\..\images\03_user_center\Utility_Menu1.png[]
 
 5.添加菜单，选中已有的菜单项，在“添加”处将鼠标停留一下，在弹出的选项中选择新建的菜单类型，“子节点”是当前选中菜单下的子菜单，“同级节点”是同一级菜单。（这里以同级节点为例）
 
-image::..\images\03_user_center\Utility_Menu2.png[]
+image::..\..\images\03_user_center\Utility_Menu2.png[]
 
 6.输入菜单名称、路由，保存即可。（新增的路由需要在权限管理页添加相应的路由权限，路由权限需与路由一致，用户必须拥有该路由权限才能访问该菜单项。）
 
-image::..\images\03_user_center\Utility_Menu3.png[]
+image::..\..\images\03_user_center\Utility_Menu3.png[]
 
 7.添加成功
 
-image::..\images\03_user_center\Utility_Menu4.png[]
+image::..\..\images\03_user_center\Utility_Menu4.png[]
 
 
 === 应用角色管理
@@ -329,34 +329,34 @@ image::..\images\03_user_center\Utility_Menu4.png[]
 
 3.在应用列表点击右边“角色”，进入角色管理
 
-image::..\images\03_user_center\roe_add.png[]
+image::..\..\images\03_user_center\roe_add.png[]
 
 4.添加角色，在角色管理页面，点击列表右上方“添加”。 操作方法详细参考[用户中心-组织协作-角色管理-添加角色]。
 
-image::..\images\03_user_center\add_role.png[]
+image::..\..\images\03_user_center\add_role.png[]
 
 5.组织的添加
 
 * 添加角色到组织，在角色管理页，选择角色点击右边的“组织”
 
-image::..\images\03_user_center\Added_tissue.png[]
+image::..\..\images\03_user_center\Added_tissue.png[]
 
 * 进入“组织管理”页面，点击“添加组织”
 
-image::..\images\03_user_center\Added_tissue1.png[]
+image::..\..\images\03_user_center\Added_tissue1.png[]
 
 * 在弹出框选择组织确认即可
 
-image::..\images\03_user_center\Added_tissue2.png[]
+image::..\..\images\03_user_center\Added_tissue2.png[]
 
 * 添加成功
 
-image::..\images\03_user_center\Added_tissue3.png[]
+image::..\..\images\03_user_center\Added_tissue3.png[]
 
 
 6.角色权限维护，在角色管理页，点击列表右边的“权限维护”
 
-image::..\images\03_user_center\Permissions_maintenance.png[]
+image::..\..\images\03_user_center\Permissions_maintenance.png[]
 
 在弹出的权限维护窗口，可以查看该角色当前所属权限，可以增加也可以减少权限。“源列表”里的权限是系统未分配给角色的权限，“目的列表”所列的权限是角色当前从源列表里分配到的权限，“角色所有权限”定义同字面上一样，指的是该角色所有的权限。
 
@@ -366,17 +366,17 @@ image::..\images\03_user_center\Permissions_maintenance.png[]
 
 目的列表里的权限归还到源列表里，具体方法是选中权限后点击“<”即可。
 
-image::..\images\03_user_center\Permissions_maintenance1.png[]
+image::..\..\images\03_user_center\Permissions_maintenance1.png[]
 
 7.角色编辑
 
 已有的角色可以重新编辑修改，在角色管理页，点击列表右边的“编辑”
 
-image::..\images\03_user_center\Role_editing.png[]
+image::..\..\images\03_user_center\Role_editing.png[]
 
 在编辑页面，可以修改角色名称、说明，状态设置，选择是否给予授权。角色为可授权时且角色与权限管理员在同一组织下，权限管理员拥有该角色时可在组织协作-角色管理显示该角色，并且可以将该角色分配给其他用户。
 
-image::..\images\03_user_center\Role_editing1.png[]
+image::..\..\images\03_user_center\Role_editing1.png[]
 
 
 ==  怎么样绑定手机号和邮箱？
@@ -385,19 +385,19 @@ image::..\images\03_user_center\Role_editing1.png[]
 
 点击头像旁的“▼”图标，选中“用户安全”
 
-image::..\images\03_user_center\user_safe.png[]
+image::..\..\images\03_user_center\user_safe.png[]
 
 进入用户中心-账号安全，选择要绑定的方式，点击“绑定”进入绑定页面。（这里以手机绑定为例）：
 
-image::..\images\03_user_center\cellphone_binding.png[]
+image::..\..\images\03_user_center\cellphone_binding.png[]
 
 在绑定手机页面，输入手机号，输入、获取验证码
 
-image::..\images\03_user_center\cellphone_binding1.png[]
+image::..\..\images\03_user_center\cellphone_binding1.png[]
 
 绑定成功
 
-image::..\images\03_user_center\success_binding.png[]
+image::..\..\images\03_user_center\success_binding.png[]
 
 
 
@@ -408,23 +408,23 @@ image::..\images\03_user_center\success_binding.png[]
 
 1）打开登录页面，点击“忘记密码”
 
-image::..\images\03_user_center\password.png[]
+image::..\..\images\03_user_center\password.png[]
 
 2）确认信息页面，输入已绑定的手机号或邮箱（这里以绑定的手机号为例）：
 
-image::..\images\03_user_center\password1.png[]
+image::..\..\images\03_user_center\password1.png[]
 
 3）在身份验证页面，输入、获取验证码
 
-image::..\images\03_user_center\identifying_code.png[]
+image::..\..\images\03_user_center\identifying_code.png[]
 
 4）验证成功后，进入重置密码，输入新密码
 
-image::..\images\03_user_center\new_password.png[]
+image::..\..\images\03_user_center\new_password.png[]
 
 5）重置密码完成
 
-image::..\images\03_user_center\password2.png[]
+image::..\..\images\03_user_center\password2.png[]
 
 
 
