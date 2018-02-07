@@ -1,0 +1,3 @@
+include::doc/01_ims.adoc[title:ims系统文档]
+
+include::doc/00_getting_started.adoc[title:禾其投资平台文档]
