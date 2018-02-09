@@ -1,0 +1,26 @@
+<script src="https://cdn.bootcss.com/jquery/1.9.1/jquery.min.js"></script>
+<script>
+  $(function () {
+
+    $('body').css({
+      'min-height': $(window).height()
+    });
+
+    $('.navDiv-down,.a-isChild').on('click', function () {
+      var siblingUlDom = $(this).siblings('.navDiv-ul');
+      siblingUlDom.toggleClass('show')
+    })
+
+    $('.navDiv-li a').each(function () {
+      var curDom = $(this), curHref = curDom.attr('href');
+      curHref = curHref.replace(/\\/g, '/');
+      if (location.href.indexOf(curHref) > -1) {
+        curDom.addClass('active');
+        curDom.parents('ul').addClass('show');
+      }
+    })
+
+  })
+</script>
+</body>
+</html>

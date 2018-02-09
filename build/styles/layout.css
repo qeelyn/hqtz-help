@@ -1,10 +1,80 @@
 .docHeader {
     padding: 40px;
 }
-.layui-nav-child{
+
+.layui-nav-child {
     margin: 0;
 }
+
 .doc-context {
     margin-left: 200px;
     padding: 10px 40px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.navDiv {
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 200px;
+    border-right: solid 1px #f1f1f1;
+    overflow: auto;
+}
+
+.navDiv-ul {
+    margin: 0;
+    list-style-type: none;
+}
+
+.navDiv-li {
+    position: relative;
+}
+
+.navDiv > .navDiv-ul > .navDiv-li > a {
+    border-bottom: solid 1px #e1e1e1;
+}
+
+.navDiv-li ul {
+    display: none;
+}
+
+.navDiv-li ul.show {
+    display: block;
+}
+
+.navDiv-li a.active {
+    background: #eeeeee;
+}
+
+.navDiv-li a {
+    position: relative;
+    display: block;
+    padding: 4px 10px;
+    color: #0c0c0c;
+}
+
+.navDiv-li a:hover::before {
+    content: ' ';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: #cccccc;
+    opacity: 0.2;
+}
+
+.navDiv-down {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 40px;
+    text-align: center;
+    height: 42px;
+    line-height: 42px;
+    cursor: pointer;
 }

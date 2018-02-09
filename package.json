@@ -4,7 +4,6 @@
   "description": "hqtz help",
   "main": "index.js",
   "scripts": {
-    "test": "node ./build/start.js"
   },
   "repository": {
     "type": "git",

@@ -7,7 +7,8 @@ var Fs = require('fs'),
   Path = require('path');
 
 //定义变量
-var useDirName = false,   //使用文件夹名字作为菜单名   否则用文件里面的parent:xxx作为菜单名
+var menuPrefix = '/doc',
+  useDirName = false,   //使用文件夹名字作为菜单名   否则用文件里面的parent:xxx作为菜单名
   rootPath = __dirname,
   docPath = Path.join(rootPath, '..', 'doc'),
   dirPath = Path.join(rootPath, 'dir'),
@@ -16,6 +17,7 @@ var useDirName = false,   //使用文件夹名字作为菜单名   否则用文�
   tree = [],
   headerHtml = Fs.readFileSync(rootPath + '/template/header.html', 'utf-8'),
   footerHtml = Fs.readFileSync(rootPath + '/template/footer.html', 'utf-8');
+
 
 /**
  * 解析目录得到要生成的脚本
@@ -89,7 +91,7 @@ function getFileJson(url, fileName, file, curTree) {
     json = {
       source: Path.join(url, fileName),
       router: Path.join(routerUrl, fileName.split('.')[0] + '.html'),
-      anchor: []
+      anchor: [],
     };
 
   for (let i in strOne) {
@@ -133,7 +135,7 @@ function formatTree(json, curTree) {
     let item = curTree[i];
     if (item.title == json.parent) {
       isTrue = false;
-      item.children.push(json);
+      item.children && item.children.push(json);
       break;
     }
   }
@@ -209,7 +211,7 @@ function createMenuTree() {
   for (let i in tree) {
     let item = tree[i];
     if (item.title) {
-      let href = item.router ? item.router.replace(rootPath, '') : 'javascript:;';
+      let href = item.router ? menuPrefix + item.router.replace(rootPath, '') : 'javascript:;';
       html += '<li class="layui-nav-item layui-nav-itemed">';
       html += '<a href="' + href + '">' + item.title + '</a>';
       if (item.children && item.children.length) {
@@ -217,7 +219,7 @@ function createMenuTree() {
         for (let c in item.children) {
           let child = item.children[c];
           if (child.title) {
-            let hf = child.router ? child.router.replace(rootPath, '') : 'javascript:;';
+            let hf = child.router ? menuPrefix + child.router.replace(rootPath, '') : 'javascript:;';
             html += '<dd><a href="' + hf + '">' + child.title + '</a></dd>';
           }
         }
