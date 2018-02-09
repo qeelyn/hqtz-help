@@ -34,6 +34,29 @@ image::..\..\images\02_dms\new_file.png[]
 
 image::..\..\images\02_dms\new_file1.png[]
 
+
+==== 新建Xlink文件
+
+Xlink标记链接文件,填写来源网址，可以从一个文件链接到网站上，或者链接到文件的某一部分。
+
+在目录内容页，点击“新建文件夹”旁的“▼”图标，选择“Xlink文件”
+
+image::..\..\images\02_dms\xlink_file.png[]
+
+进入添加xlink文件窗口，输入文件名称和来源网址，选择填写文件类型、行业、公司标签。保存即可。
+
+image::..\..\images\02_dms\xlink_file1.png[]
+
+新增保存成功
+
+image::..\..\images\02_dms\xlink_file2.png[]
+
+打开文件，就可以查看链接的网站内容
+
+image::..\..\images\02_dms\xlink_file3.png[]
+
+
+
 === 重命名
 
 给文件或文件夹等重新起一个名称。
@@ -72,23 +95,6 @@ image::..\..\images\02_dms\nature1.png[]
 image::..\..\images\02_dms\nature2.png[]
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 === 打开
 
 1.文件打开，双击文件打开或选中文件点击右上角的“▼”图标，在弹出框选择“打开”即可。
@@ -122,13 +128,71 @@ image::..\..\images\02_dms\share1.png[]
 
 image::..\..\images\02_dms\share_edit.png[]
 
-=== 共享
+=== 文件共享
 
-点击“我的分享”进入我的分享页面，选中文件，点击“▼”图标，在弹出框中选择“打开共享页面”后进入文件提取页面。如果之前分享时有设置提取密码，则先输入提取密码。“确认”后，就可以提取下载文件啦。
+用文件共享轻轻松松的与其他人分享文件。文件共享是指主动地在网络上共享自己的计算机文件，文件本身存在用户本人的个人账号（电脑）上。大多数参加文件共享的人也同时下载其他用户提供的共享文件。
+
+具体操作方法：
+1、在“我的共享”页面，选中要共享的文件，点击文件右上角的“▼”图标，点击弹出框里的“打开共享页面”
 
 image::..\..\images\02_dms\sharing.png[]
+
+在“共享页面”把页面上的链接“http://117.29.166.222:9010/dms/share/list?sid=us5a7c19d15a8a3”和提取密码发给共享的人
+
 image::..\..\images\02_dms\sharing1.png[]
+
+
+把收到共享链接复制到浏览器打开，并输入提取密码，确定即可
+
 image::..\..\images\02_dms\sharing2.png[]
+
+下载共享的文档，完成共享
+
+image::..\..\images\02_dms\sharing3.png[]
+
+2、在“我的分享”页面，选中要分享的文档，点击右上角的“▼”图标，点击弹出框里的“编辑分享”
+
+image::..\..\images\02_dms\share_edit1.png[]
+
+在“资源分享”编辑框，把共享地址http://117.29.166.222:9010/dms/share/list?sid=us5a7d186baab27和提取密码共享出去
+
+image::..\..\images\02_dms\sharing4.png[]
+
+把收到共享链接复制到浏览器打开，并输入提取密码，确定即可
+
+image::..\..\images\02_dms\sharing2.png[]
+
+下载共享的文档，完成共享
+
+image::..\..\images\02_dms\sharing3.png[]
+
+
+=== 文档分享至微信
+
+把文档分享至微信，“我的分享”里的文档可以通过二维码扫一扫分享至微信打开，并保存在手机。
+
+操作方法：
+
+在“我的分享”页面，选中要分享的文档，点击右上角的“▼”图标，点击弹出框里的“编辑分享”
+
+image::..\..\images\02_dms\share_edit1.png[]
+
+进入“资源分享”编辑框，鼠标在微信图标上停留，用手机微信扫一扫弹出的二维码
+
+image::..\..\images\02_dms\share_edit2.png[]
+
+进入手机操作步骤：输入文件提取密码：
+
+image::..\..\images\02_dms\share_edit3.png[]
+
+
+可以选择下载或直接打开文件：
+
+image::..\..\images\02_dms\share_edit4.png[]
+
+成功通过二维码扫一扫在手机打开文档：
+
+image::..\..\images\02_dms\share_edit5.png[]
 
 === 搜索
 
