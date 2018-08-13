@@ -1,4 +1,4 @@
-[title:目录,parent:dms系统文档]
+[title:目录,parent:dms系统文档,hide:1]
 === 新建
 
 === 重命名

@@ -1,4 +1,4 @@
-[title:目录,parent:ims系统]
+[title:目录,parent:ims系统,hide:1]
 
 === 新闻搜索
 

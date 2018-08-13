@@ -1,4 +1,4 @@
-[title:目录,parent:ucenter系统文档]
+[title:目录,parent:ucenter系统文档,hide:1]
 
 === 人员管理
 
